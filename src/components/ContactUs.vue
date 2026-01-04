@@ -135,7 +135,7 @@ const copyToClipboard = (text) => {
                     </div>
                     <div>
                         <label class="block text-sm font-medium text-white mb-2">
-                            Your Email<span class="text-red-500">*</span>
+                            Your Email <span class="text-red-500">*</span>
                         </label>
                         <input type="text" v-model="formData.email" required
                             class="w-full px-2 py-2 rounded-lg dark:bg-gray-700 border-none outline-[0.5px] dark:outline-none bg-white"
@@ -143,7 +143,7 @@ const copyToClipboard = (text) => {
                     </div>
                     <div>
                         <label class="block text-sm font-medium text-white mb-2">
-                            Your Message<span class="text-red-500">*</span>
+                            Your Message <span class="text-red-500">*</span>
                         </label>
                         <textarea v-model="formData.message" required
                             class="w-full px-2 py-2 rounded-lg dark:bg-gray-700 border-none outline-[0.5px] dark:outline-none bg-white min-h-[150px]"

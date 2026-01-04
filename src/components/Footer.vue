@@ -152,7 +152,7 @@ const scrollToTop = () => {
       <div class="flex flex-col sm:flex-row justify-between items-center gap-4">
         <div class="text-center sm:text-left">
           <p class="text-gray-400 text-sm">
-            © 2024 <span class="text-white font-medium">Thach Synayut</span>. All rights reserved.
+            © 2026 <span class="text-white font-medium">Thach Synayut</span>. All rights reserved.
           </p>
           <p class="text-gray-500 text-xs mt-1">
             Made with <span class="text-red-400">❤</span> using Vue.js & Tailwind CSS
