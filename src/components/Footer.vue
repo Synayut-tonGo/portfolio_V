@@ -26,8 +26,8 @@ const scrollToTop = () => {
 
 
 <template>
-  <footer class="relative bg-gray-900 text-white w-full border-t border-gray-800">
-    <div class="container mx-auto px-4 py-8 sm:py-12">
+  <footer class="relative bg-gray-900 text-white w-full border-t border-gray-800 flex justify-center items-center">
+    <div class="container flex flex-col justify-center items-center mx-auto px-4 py-8 sm:py-12 ">
       <!-- Top Section -->
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
         <!-- Left: Brand & Description -->

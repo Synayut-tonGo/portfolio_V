@@ -5,14 +5,13 @@ import cv from '../assets/cv/Thach_Synayut_CV.pdf'
 
 const experiences = [
     {
-        role: "Junior Frontend Developer",
+        role: "Intern Frontend Developer",
         companyName: "Content First",
-        workDate: "July 2025 - Present",
+        workDate: "September 2025 - Present",
         location: "Phnom Penh, Cambodia",
         iconLocation: 'pi pi-map-marker',
         iconCalendar: 'pi pi-calendar',
         description: 'Contributing to Nuk Cafe Admin Portal, a cafe shop management system in Hong Kong.',
-        goIcon: "pi pi-external-link",
         responsibilities: ['Developing Frontend Feature Menu Session', 'Building responsive admin dashboard components', 'Implementing state management with Pinia'],
         technology: ['Vue.js 2', 'Tailwind CSS', 'Pinia'],
     },
@@ -20,24 +19,50 @@ const experiences = [
         role: "QA Tester",
         companyName: "Content First",
         location: "Phnom Penh, Cambodia",
-        workDate: "July 2025 - Present",
+        workDate: "September 2025 - Present",
         iconLocation: 'pi pi-map-marker',
         iconCalendar: 'pi pi-calendar',
         description: 'Quality assurance testing for Syncra project.',
-        goIcon: "pi pi-external-link",
         responsibilities: ['Testing Whole Project functionality', 'Writing and executing test cases', 'Identifying and reporting bugs'],
     },
     {
-        role: "Junior Frontend Developer",
+        role: "Intern Frontend Developer",
         location: "Phnom Penh, Cambodia",
         companyName: "Content First",
-        workDate: "July 2025 - Present",
+        workDate: "September 2025 - Present",
         iconLocation: 'pi pi-map-marker',
         iconCalendar: 'pi pi-calendar',
         description: 'Contributing to Yumbite Cambodia food delivery platform.',
+        linkOut:'https://www.yumbitescambodia.com/',            
         goIcon: "pi pi-external-link",
         responsibilities: ['Updating Yumbite UI and responsive website', 'Implementing new user interface components', 'Enhancing mobile responsiveness'],
         technology: ['Nuxt', 'Tailwind CSS', 'Vue.js'],
+    },
+    {
+        role: "Video Editor",
+        location: "Phnom Penh, Cambodia",
+        companyName: "Content First",
+        workDate: "July - Present",
+        iconLocation: 'pi pi-map-marker',
+        iconCalendar: 'pi pi-calendar',
+        description: 'Design Poster , 2D animation , Camera Man',
+        linkOut:'https://drive.google.com/drive/folders/1-LwY0FLI6pWiwZZfGWmSCRAyu2kQZ2Jq?dmr=1&ec=wgc-drive-hero-goto',            
+        goIcon: "pi pi-external-link",
+        responsibilities: ['Design Poster for Nuk Cafe and Job Connect Cambodia', 'Make 2D motion for Syncra logo ', 'Shooting Outdoor for Nuk Cafe and Video Editor'],
+        technology: ['Photoshop', 'Illustrator', 'Premiere' , 'After Effect' , 'Basic Camera'],
+    },
+    {
+        role: "Junior Graphic Design & Video Editor",
+        location: "Phnom Penh, Cambodia",
+        companyName: "CMED GROUP",
+        workDate: "May 2024 - Jan 2025",
+        iconLocation: 'pi pi-map-marker',
+        iconCalendar: 'pi pi-calendar',
+        linkOut:'https://drive.google.com/drive/folders/1-LwY0FLI6pWiwZZfGWmSCRAyu2kQZ2Jq?dmr=1&ec=wgc-drive-hero-goto',        
+        description: 'Design Poster , 2D animation , Camera Man',
+        goIcon: "pi pi-external-link",
+        responsibilities: ['Design Poster for events and materails for print', 'Make 2D motion for events', 'Site Shooting'],
+        technology: ['Photoshop', 'Illustrator', 'Premiere' , 'After Effect' , 'Basic Camera']
     },
 ]
 
@@ -190,7 +215,7 @@ onMounted(() => {
                             </h3>
                         </div>
                     </div>
-                    <a href="#" class="text-gray-400 hover:text-white ml-2">
+                    <a :href="ex.linkOut" class="text-gray-400 hover:text-white ml-2">
                         <i :class="ex.goIcon" class="text-sm sm:text-base"></i>
                     </a>
                 </div>

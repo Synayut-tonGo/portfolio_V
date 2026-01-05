@@ -16,25 +16,47 @@ import { onMounted, ref } from 'vue';
             goIcon:"pi pi-external-link" 
         },
         {
+            project: "Web/Personal",
+            title:"Ecommerce",
+            description:"My personal shopping website built with React, showcasing my skills,",
+            linkGitHub:'https://github.com/Synayut-tonGo/shop_clothes',
+            linkOut:'https://shop-clothes-umber.vercel.app/',
+            icon:'pi pi-desktop',
+            technology: ['React JS'],
+            gitIcon:"pi pi-github" ,
+            goIcon:"pi pi-external-link" 
+        },
+        {
+            project: "Web/Personal",
+            title:"Book Shop",
+            description:"My personal Book shop website built with React, showcasing my skills,",
+            linkGitHub:'https://github.com/Synayut-tonGo/book-store',
+            linkOut:'https://book-store-eight-henna.vercel.app/',
+            icon:'pi pi-desktop',
+            technology: ['React JS'],
+            gitIcon:"pi pi-github" ,
+            goIcon:"pi pi-external-link" 
+        },               
+        {
             project: "Web/Nuk Cafe",
             title:"Admin Portal",
             icon:'pi pi-desktop',
             linkGitHub:'',
             linkOut:'',            
-            description:"Nuk Cafe Admin Portal, a cafe shop management system in Hong",
+            description:"Nuk Cafe Admin Portal, a cafe shop management system in Hong Kong",
             technology: ['Vue js 2' , 'Tailwind CSS' , 'Pinia'],
-            gitIcon:"pi pi-github " ,
-            goIcon:"pi pi-external-link" 
+            // gitIcon:"pi pi-github " ,
+            // goIcon:"pi pi-external-link" 
         },
         {
             project: "Web/Yumbite Cambodia",
             title:"Website",
             icon:'pi pi-desktop',
-            linkGitHub:'https://gitlab.com/innoblockyumbites/yumbites-landing',
+            linkGitHub:'',
             linkOut:'https://www.yumbitescambodia.com/',            
             description:"Contributing to Yumbite Cambodia food delivery platform.",
             technology: ['Nuxt js'],
-            gitIcon:"pi pi-github " ,
+            gitIcon:"" ,
             goIcon:"pi pi-external-link" 
         }
     ]
