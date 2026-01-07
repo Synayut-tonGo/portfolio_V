@@ -8,7 +8,7 @@ const experiences = [
         role: "Intern Frontend Developer",
         companyName: "Content First",
         workDate: "September 2025 - Present",
-        location: "Phnom Penh, Cambodia",
+        location: "Phnom Penh",
         iconLocation: 'pi pi-map-marker',
         iconCalendar: 'pi pi-calendar',
         description: 'Contributing to Nuk Cafe Admin Portal, a cafe shop management system in Hong Kong.',
@@ -18,7 +18,7 @@ const experiences = [
     {
         role: "QA Tester",
         companyName: "Content First",
-        location: "Phnom Penh, Cambodia",
+        location: "Phnom Penh",
         workDate: "September 2025 - Present",
         iconLocation: 'pi pi-map-marker',
         iconCalendar: 'pi pi-calendar',
@@ -27,7 +27,7 @@ const experiences = [
     },
     {
         role: "Intern Frontend Developer",
-        location: "Phnom Penh, Cambodia",
+        location: "Phnom Penh",
         companyName: "Content First",
         workDate: "September 2025 - Present",
         iconLocation: 'pi pi-map-marker',
