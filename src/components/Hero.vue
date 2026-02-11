@@ -99,7 +99,7 @@ onMounted(() => {
         class="relative text-xl pt-10 dark:text-white text-center mt-19 mb-2">Thach Synayut</p>
         <h1 
         ref="fsd"
-        class="text-center text-3xl lg:text-7xl md:text-5xl sm:text-4xl font-semibold dark:text-white">Full Stack Developer</h1>
+        class="text-center text-3xl lg:text-7xl md:text-5xl sm:text-4xl font-semibold dark:text-white">Jr. Web Developer</h1>
         <p 
         ref="des"
         class="m-auto md:w-[500px] sm:w-[400px] mt-6 w-[300px] text-center text-xl dark:text-white max-[640px]:w-[280px]">Creating beautiful, responsive web applications with modern technologies and clean code practices.</p>

@@ -38,7 +38,7 @@ const scrollToTop = () => {
             </div>
             <div>
               <h2 class="text-2xl sm:text-3xl font-bold">Thach Synayut</h2>
-              <p class="text-gray-400 text-sm sm:text-base">Frontend Developer & Designer</p>
+              <p class="text-gray-400 text-sm sm:text-base">Web Developer & Designer</p>
             </div>
           </div>
           

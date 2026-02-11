@@ -89,7 +89,7 @@ onMounted(() => {
                 </div>
                 <div class="mt-6 text-center lg:text-left">
                     <h1 class="text-xl md:text-2xl mb-2 font-semibold text-white">Thach Synayut</h1>
-                    <h2 class="text-lg md:text-xl mb-4 text-white">Full Stack Developer</h2> 
+                    <h2 class="text-lg md:text-xl mb-4 text-white">Jr. Web Developer</h2> 
                     <p class="text-sm md:text-base text-white max-w-[280px] mx-auto lg:mx-0">
                         Passionate about building modern web applications with clean code and exceptional user experiences.
                     </p>                       
@@ -102,7 +102,7 @@ onMounted(() => {
             class="w-full lg:w-[60%] text-gray-900 dark:text-white">
                 <h1 class="text-xl md:text-2xl font-semibold">My Approach</h1>
                 <p class="mt-3 text-sm md:text-[15.3px] leading-relaxed">
-                    I'm a full-stack developer with expertise in modern web technologies. I focus on creating applications that are not only functional but also provide exceptional user experiences.
+                    I'm a Jr. Web Developer with expertise in modern web technologies. I focus on creating applications that are not only functional but also provide exceptional user experiences.
                 </p>
                 <p class="mt-3 text-sm md:text-base leading-relaxed">
                     With experience across the entire development stack, I enjoy tackling complex problems and turning ideas into reality through clean, maintainable code.
