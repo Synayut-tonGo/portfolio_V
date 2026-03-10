@@ -9,6 +9,7 @@ import mysql from '../assets/image/MySQL.png'
 import sqlserver from '../assets/image/Microsoft_SQL_Server.png'
 import github from '../assets/image/GitHub.png'
 import gitlab from '../assets/image/GitLab.png'
+import vercel from '../assets/image/Symbol.png'
 import { onMounted, ref } from 'vue'
 import gsap from 'gsap'
 
@@ -80,6 +81,11 @@ const tools = [
   {
     imageSrc: gitlab,
     name: 'GitLab',
+    rate: 'Medium'
+  },
+  {
+    imageSrc: vercel,
+    name: 'Vercel',
     rate: 'Medium'
   },
 ]
@@ -206,7 +212,7 @@ onMounted(() => {
     <h1 :ref="setTextUp" class="text-center mb-6 md:mb-8 lg:mb-10 mt-10 md:mt-12 lg:mt-14 text-2xl md:text-3xl lg:text-4xl font-semibold max-w-6xl w-full px-4">
       Tools
     </h1>
-    <div class="w-full max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6">
+    <div class="w-full max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
       <div v-for="tool in tools" :key="tool.name"
         :ref="setBoxUp"
         class="flex justify-center items-center gap-3 md:gap-4 rounded-xl border border-gray-300 dark:border-gray-700 w-full h-[140px] sm:h-[160px] md:h-[200px] lg:h-[240px] dark:text-white text-white dark:bg-gray-800 bg-gray-900 flex-col p-4 transition-transform duration-300 hover:scale-105 hover:shadow-lg">
